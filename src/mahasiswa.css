@@ -1,0 +1,39 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .table-header,
+  .table-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-header {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .table-row:hover {
+    background-color: #e6f7ff;
+  }
+  
